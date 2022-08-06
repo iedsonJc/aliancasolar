@@ -6,19 +6,30 @@ body {
     background-color: aquamarine;
 }
 
-div .container{
-    
-}
-nav {
+
+
+
+header .container{
     background-color: black;
-    font-size:xx-large;
-    color: white;
-    text-align:end;
-    justify-content: space-between;
     display: flex;
-    align-items:flex-start;
+    align-items:center;                                  flex-direction: row;
+    justify-content:space-between;
+
 }
- 
+
+
+nav {
+    font-size: x-large;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 25%;
+}
+
+.linkd{
+    margin-left: -25%;
+    margin-top: 5%;
+}
+
 .img {
     margin-left: 70%;
     
