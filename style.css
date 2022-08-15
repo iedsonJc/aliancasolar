@@ -4,7 +4,7 @@
 
 body {
     background-color: aquamarine;
-    margin: auto;
+    
 }
 
 
@@ -18,10 +18,7 @@ body {
 }
 
 
-nav {
-    
-    
-}
+
 
 nav .mid{
     margin-top: 1%;       
@@ -37,12 +34,29 @@ nav .text{
 }
 
 .img {
-    margin-left: 50%;
+   margin-right: 15%;
     
+    margin-top: -15%;
 }
+
+main .container{
+  margin-left: 10%;
+    text-align: justify;
+    margin-bottom: 0%;
+    display: flex;
+ 
+    
+
+}
+main .conteudo{
+   font-size: xx-large;
+}
+
 
 footer{
     background-color: black;
     color: white;
     text-align: center;
+    
+    
 }
