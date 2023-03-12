@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(175, 243, 232);
+    background-color:rgb(145, 210, 247);
 }
 
 #principal{
@@ -16,7 +16,7 @@ body{
 
 nav{
     margin: auto;
-    margin-top: -190px;
+    margin-top: -170px;
    
 }
 
@@ -62,6 +62,39 @@ button{
     text-align:center;
 }
 
+
+
+.rede{
+    text-align: center;
+    margin-top: 10px;
+}
+
+ .rede{
+        color: #fff;
+        display: flex;
+        flex-direction:row;
+        justify-content:center;
+        
+}
+
+.rimag{
+    margin: 0%;
+    margin-top: 20px;
+}
+
+
+.link{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    color: #000;
+    
+}
+
+.quem{
+    text-align: center;
+}
+
 .rodape{
     text-shadow: 1px 1px 1px #000;
     border-radius: 10px;
@@ -77,28 +110,4 @@ button{
     justify-content:center;
     flex-direction: row;
     
-}
-
-.rede{
-    margin-top: 100px;
-    margin-left: 25%;
-}
-
-.rede imag a{
-        text-align: center;
-    
-        display: flex;
-        flex-direction: row;
-        
-        justify-content:end;
-        
-}
-
-.rede a{
-    margin-left: 0px;
-    color: #000;
-}
-
-.quem{
-    text-align: center;
 }
