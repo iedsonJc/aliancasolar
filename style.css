@@ -1,48 +1,53 @@
 @charset "UTF-8";
 body{
     background: rgb(4,189,191);
-    background: linear-gradient(0deg, rgb(4, 147, 191) 0%, rgb(218, 233, 9) 100%);
+    background: linear-gradient(0deg, rgb(4, 147, 191) 0%, rgb(218, 233, 9) 100%);  
+    }
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+main{
     margin: auto;
     min-height: 320px;
     max-width: 800px;
-    
-}
-*{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-    
 }
 
+/* menu e logo */
 #principal{
     display: flex;
     align-items: center;
     flex-direction:column;
     justify-content:flex-start;  
     
+    
 }
 
+
+/* logo */
 .img{
     margin: auto;
     margin-top: -100px;
+    text-align: center;
 }
 
+
+
+/* menu */
 nav{
     margin: auto;
     margin-top: -170px;
-   
+    text-align: center;
 }
 
-a{
+nav a{
     text-decoration: none;
     margin: 10px;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 25px;
-}
-
-button{
-    margin: auto;
-
 }
 
 .bhome, .bquems, .bcontato {
@@ -67,6 +72,9 @@ button{
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
+
+
+/* textos principais */
 .res{
     
     margin-top: 30px; 
@@ -77,20 +85,7 @@ button{
 
 
 
-.rede{
-    text-align: center;
-    margin-top: 10px;
-}
-
-.rede{
-    color: #fff;
-    display: flex;
-    flex-direction:row;
-    justify-content:center;
- 
-        
-}
-
+/* caixa de email */
 .mail{
     text-shadow: 1px 1px 1px #000;
     border-radius: 10px;
@@ -106,30 +101,45 @@ button{
     margin-top:90px;
     text-align: center;
     width: 350px;
+}
 
-    
 
+/* redes socias para contado */
+.cont-redes{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flexbox-redes{
+    margin-left: 6%;
+    margin-right: 6%;    
 }
 
 .rimag{
     margin: 0%;
-    margin-top: 20px;
-    width: 35px;
-    height: 35px;
+    margin-top: 200px;
+    width: 60px;
+    height: 60px;
 }
 
-
 .link{
-    text-align: center;
+    
     margin-bottom: 30px;
     margin-left: 0px;
     color: #000;
-    font-size: 20px;
-    
+    font-size: 20px;    
 }
 
-.quem{
+
+
+/* roda pé */
+.iconrp{
     text-align: center;
+    width: 40px;
 }
 
 .rodape{
@@ -145,12 +155,5 @@ button{
     display:flex;
     align-items: center;
     justify-content:center;
-    margin-top: 1px;
-    width: 100%;
-    
-}
- 
-.iconrp{
-
-    width: 40px;
+    margin-top: 1px;    
 }
