@@ -28,10 +28,11 @@ main{
 
 
 /* logo */
-.img{
+.imag{
     margin: auto;
-    margin-top: -100px;
+    margin-top: -40px;
     text-align: center;
+
 }
 
 
@@ -39,7 +40,7 @@ main{
 /* menu */
 nav{
     margin: auto;
-    margin-top: -170px;
+    margin-top: -150px;
     text-align: center;
 }
 
@@ -140,6 +141,13 @@ nav a{
 .iconrp{
     text-align: center;
     width: 40px;
+}
+
+.img-p{
+    
+    width: 700px;
+    
+    
 }
 
 .rodape{
